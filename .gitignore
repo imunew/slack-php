@@ -6,3 +6,5 @@ vendor/
 .DS_STORE
 *.sh
 tools/
+/.idea
+/*.iml

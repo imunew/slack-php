@@ -1,13 +1,24 @@
 <?php
 
-namespace wrapi\slack;
+namespace Imunew\Slack;
 
-class slack extends \wrapi\wrapi {
-    public function __construct($token) {
+use wrapi\wrapi as ApiClient;
 
+/**
+ * Class Slack
+ * @package Imunew\Slack
+ */
+class Slack extends ApiClient
+{
+    /**
+     * Slack constructor.
+     * @param $token
+     */
+    public function __construct($token)
+    {
         $opts = array(
             "headers" => array(
-                "User-Agent" => "slack-wrapi"
+                "User-Agent" => "imunew-slack-php"
             ),
             "query" => array(
                 "token" => $token
@@ -22,5 +33,3 @@ class slack extends \wrapi\wrapi {
     }
 
 }
-
-?>

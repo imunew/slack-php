@@ -1,5 +1,5 @@
 {
-    "name": "wrapi/slack",
+    "name": "imunew/slack",
     "description": "Wrapper for Slack Web API",
     "type": "library",
     "keywords": [
@@ -14,7 +14,7 @@
         "guzzle"
     ],
     "license": "MIT",
-    "homepage": "https://github.com/palanik/slack-php",
+    "homepage": "https://github.com/imunew/slack-php",
     "authors": [
         {
             "name": "palanik"
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "wrapi\\slack\\": "src/"
+            "Imunew\\Slack\\": "src/"
         }
     }
 }

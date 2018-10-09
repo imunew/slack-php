@@ -550,5 +550,9 @@
 	"users.profile.set": {
 		"method": "GET",
 		"path": "users.profile.set"
+	},
+	"users.admin.invite": {
+		"method": "GET",
+		"path": "users.admin.invite"
 	}
 }
